@@ -16,6 +16,7 @@ import Counter from "@/components/counter"
 import SimpleCounter from "@/components/BasicCounter"
 import Notes from "@/components/Notes"
 import Contact from "@/components/contact"
+import NavBar from "@/components/navbar"
 
 //Export helps in exporting react components
 
@@ -78,6 +79,7 @@ const Contacts = [
   //Differnt type of variable called hook/state variable using useState function
   //setCount ---> variable lai change garne method, set of functions through change garnu parcha
   return (
+
     //React Component
     // <h1> Welcome to React</h1>
     //React treats every html element as a component
@@ -87,6 +89,7 @@ const Contacts = [
     */
    //one single home component can only return one component
    //we can return multiple componetns by wrapping in one single component
+
    <div>
     <h1> Welcome to React</h1>
     <p> I am learning react</p>
@@ -102,6 +105,7 @@ const Contacts = [
       Reset
     </button>
     <Feedback />
+    <NavBar />
     <hr></hr>
     <Counter />
     <hr></hr>
@@ -111,8 +115,7 @@ const Contacts = [
     </br>
     <SimpleCounter count = {countbutton} handleClickbutton = {handleClickbutton}/>
     <hr></hr>
-    <Notes notes={notes}/> 
-    <hr></hr>
+<Notes />
     <Contact contacts={Contacts}/>
 
    </div>

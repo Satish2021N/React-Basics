@@ -1,0 +1,19 @@
+{
+    "notes" : [
+        {
+            "id" : 1,
+            "desc" : "css with tailwind is nice",
+            "important" : true
+    },
+    {
+        "id" : 2,
+        "desc" : "js with react is good",
+        "important" :false
+      },
+      {
+        "id":3,
+        "desc":"today is chill",
+        "important":false
+      }
+    ]
+}
